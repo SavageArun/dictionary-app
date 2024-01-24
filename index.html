@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savage English Dictionary</title>
+
+    <!-- Theme colors -->
+    <meta name="theme-color" content="#d8b4f8" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#d8b4f8">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="flex-column">
+        <h1 class="title">Savage Dictionary</h1>
+        <p class="description">written in JavaScript, consumes dictionaryapi.dev API</p>
+    </header>
+
+    <!-- User Input -->
+    <section class="input-container flex-row">
+        <input type="text" name="query" placeholder="Search Dictionary" id="query" title="Search Dictionary" autofocus/>
+        <button id="search" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </section>
+
+    <!-- Results -->
+    <section class="result-container flex-column">
+        <!-- Welcome screen -->
+        <section class="welcome-container flex-column">
+            <i class="fa-solid fa-face-laugh-beam icon"></i>
+            <h4 class="title">Welcome!</h4>
+            <p class="description">Don't forget to star the repo on GitHub if you find it helpful.</p>
+<h5 class="credit"><a href="https://instagram.com/savage_arun">©Arun</a></h5>
+        </section>
+    </section>
+
+    <!-- Audio element for pronunciation files -->
+    <audio id="audio"></audio>
+
+    <!-- Source code -->
+    <section class="source-code flex-row">
+        <a href="http://github.com/savageArun" target="_blank" class="flex-row" title="Source Code">
+            <i class="fa-brands fa-github-alt"></i>
+        </a>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="./app.js"></script>
+</body>
+</html>
