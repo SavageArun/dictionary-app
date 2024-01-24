@@ -2,6 +2,7 @@
 # My Dictionary App
 
 📚 A simple dictionary app built using HTML, CSS, and JavaScript.
+#dictionaryapi.dev API
 
 ## Features
 
